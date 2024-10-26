@@ -580,7 +580,7 @@
 			};
 			name = Release;
 		};
-		9F8C6E442CCD419400A8DD2C /* Debug copy */ = {
+		9F8C6E442CCD419400A8DD2C /* Debug-free */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -635,9 +635,9 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = "Debug copy";
+			name = "Debug-free";
 		};
-		9F8C6E452CCD419400A8DD2C /* Debug copy */ = {
+		9F8C6E452CCD419400A8DD2C /* Debug-free */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
 			buildSettings = {
@@ -658,9 +658,9 @@
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = "Debug copy";
+			name = "Debug-free";
 		};
-		9F8C6E462CCD419400A8DD2C /* Debug copy */ = {
+		9F8C6E462CCD419400A8DD2C /* Debug-free */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -675,9 +675,9 @@
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
 			};
-			name = "Debug copy";
+			name = "Debug-free";
 		};
-		9F8C6E472CCD419900A8DD2C /* Release copy */ = {
+		9F8C6E472CCD419900A8DD2C /* Release-free */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -729,9 +729,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = "Release copy";
+			name = "Release-free";
 		};
-		9F8C6E482CCD419900A8DD2C /* Release copy */ = {
+		9F8C6E482CCD419900A8DD2C /* Release-free */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
@@ -751,9 +751,9 @@
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = "Release copy";
+			name = "Release-free";
 		};
-		9F8C6E492CCD419900A8DD2C /* Release copy */ = {
+		9F8C6E492CCD419900A8DD2C /* Release-free */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -766,9 +766,9 @@
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
 			};
-			name = "Release copy";
+			name = "Release-free";
 		};
-		9F8C6E4A2CCD419C00A8DD2C /* Profile copy */ = {
+		9F8C6E4A2CCD419C00A8DD2C /* Profile-free */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -818,9 +818,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = "Profile copy";
+			name = "Profile-free";
 		};
-		9F8C6E4B2CCD419C00A8DD2C /* Profile copy */ = {
+		9F8C6E4B2CCD419C00A8DD2C /* Profile-free */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
@@ -840,9 +840,9 @@
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = "Profile copy";
+			name = "Profile-free";
 		};
-		9F8C6E4C2CCD419C00A8DD2C /* Profile copy */ = {
+		9F8C6E4C2CCD419C00A8DD2C /* Profile-free */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -855,7 +855,7 @@
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Runner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Runner";
 			};
-			name = "Profile copy";
+			name = "Profile-free";
 		};
 /* End XCBuildConfiguration section */
 
@@ -864,11 +864,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				331C8088294A63A400263BE5 /* Debug */,
-				9F8C6E462CCD419400A8DD2C /* Debug copy */,
+				9F8C6E462CCD419400A8DD2C /* Debug-free */,
 				331C8089294A63A400263BE5 /* Release */,
-				9F8C6E492CCD419900A8DD2C /* Release copy */,
+				9F8C6E492CCD419900A8DD2C /* Release-free */,
 				331C808A294A63A400263BE5 /* Profile */,
-				9F8C6E4C2CCD419C00A8DD2C /* Profile copy */,
+				9F8C6E4C2CCD419C00A8DD2C /* Profile-free */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -877,11 +877,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97C147031CF9000F007C117D /* Debug */,
-				9F8C6E442CCD419400A8DD2C /* Debug copy */,
+				9F8C6E442CCD419400A8DD2C /* Debug-free */,
 				97C147041CF9000F007C117D /* Release */,
-				9F8C6E472CCD419900A8DD2C /* Release copy */,
+				9F8C6E472CCD419900A8DD2C /* Release-free */,
 				249021D3217E4FDB00AE95B9 /* Profile */,
-				9F8C6E4A2CCD419C00A8DD2C /* Profile copy */,
+				9F8C6E4A2CCD419C00A8DD2C /* Profile-free */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -890,11 +890,11 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97C147061CF9000F007C117D /* Debug */,
-				9F8C6E452CCD419400A8DD2C /* Debug copy */,
+				9F8C6E452CCD419400A8DD2C /* Debug-free */,
 				97C147071CF9000F007C117D /* Release */,
-				9F8C6E482CCD419900A8DD2C /* Release copy */,
+				9F8C6E482CCD419900A8DD2C /* Release-free */,
 				249021D4217E4FDB00AE95B9 /* Profile */,
-				9F8C6E4B2CCD419C00A8DD2C /* Profile copy */,
+				9F8C6E4B2CCD419C00A8DD2C /* Profile-free */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
