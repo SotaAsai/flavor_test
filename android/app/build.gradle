@@ -64,8 +64,14 @@ android {
     productFlavors {
         free {
             dimension "default"
-            resValue "string", "app_name", "free flavor example"
+            resValue "string", "app_name", "(free)flavor"
             applicationIdSuffix ".free"
+        }
+
+        local {
+            dimension "default"
+            resValue "string", "app_name", "(local)flavor"
+            applicationIdSuffix ".local"
         }
     }
 }
